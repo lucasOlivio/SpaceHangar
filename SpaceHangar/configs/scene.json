@@ -1,0 +1,3344 @@
+[
+    {
+        "camera": {
+            "cameraEye": [
+                85.0,
+                9.0,
+                34.0
+            ],
+            "cameraTarget": [
+                15.0,
+                12.0,
+                20.0
+            ],
+            "upVector": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "isActive": true
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Wall_01.ply",
+            "friendlyName": "ceiling",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                6.0,
+                1.0,
+                8.0
+            ],
+            "offset": [
+                10.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                0.0,
+                25.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                90.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Wall_01.ply",
+            "friendlyName": "wallRight",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                6.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                10.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Floor.ply",
+            "friendlyName": "floor",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                12.0,
+                1.0,
+                8.0
+            ],
+            "offset": [
+                5.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                5.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallLeft",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                6.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                10.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                10.0,
+                0.0,
+                40.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                180.0,
+                -1.0,
+                180.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallBackRight",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                0.0,
+                0.0,
+                10.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallBackLeft",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                0.0,
+                0.0,
+                40.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "type": 1,
+            "isActive": false,
+            "triggerName": "",
+            "triggerValue": 0.0,
+            "direction": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "duration": 5.0,
+            "ups": 1.0,
+            "amplitude": 0.0,
+            "offset": 0.0,
+            "frequency": 0.0
+        },
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallDoorLeft",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                -0.5,
+                0.0,
+                35.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "type": 1,
+            "isActive": false,
+            "triggerName": "wallDoorLeft",
+            "triggerValue": 5.0,
+            "direction": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "duration": 10.0,
+            "ups": 1.0,
+            "amplitude": 0.0,
+            "offset": 0.0,
+            "frequency": 0.0
+        },
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallDoorLeft2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "player": {
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                -1.0,
+                0.0,
+                30.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "type": 1,
+            "isActive": false,
+            "triggerName": "",
+            "triggerValue": 0.0,
+            "direction": [
+                0.0,
+                0.0,
+                -1.0
+            ],
+            "duration": 5.0,
+            "ups": 1.0,
+            "amplitude": 0.0,
+            "offset": 0.0,
+            "frequency": 0.0
+        },
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallDoorRight",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                -0.5,
+                0.0,
+                15.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "type": 1,
+            "isActive": false,
+            "triggerName": "wallDoorRight",
+            "triggerValue": 5.0,
+            "direction": [
+                0.0,
+                0.0,
+                -1.0
+            ],
+            "duration": 10.0,
+            "ups": 1.0,
+            "amplitude": 0.0,
+            "offset": 0.0,
+            "frequency": 0.0
+        },
+        "model": {
+            "name": "SM_Env_Construction_Wall_02.ply",
+            "friendlyName": "wallDoorRight2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "player": {
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                5.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                5.0,
+                10.0
+            ]
+        },
+        "transform": {
+            "position": [
+                -1.0,
+                0.0,
+                20.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Ceiling_Light_05.ply",
+            "friendlyName": "ceilingLights",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                3.0,
+                1.0,
+                2.0
+            ],
+            "offset": [
+                20.0,
+                0.0,
+                20.0
+            ]
+        },
+        "transform": {
+            "position": [
+                10.0,
+                24.0,
+                10.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Rail_straight.ply",
+            "friendlyName": "railStraight",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                8.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                35.0,
+                15.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Rail_straight.ply",
+            "friendlyName": "railStraight2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                7.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                40.0,
+                15.0,
+                10.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Block_01.ply",
+            "friendlyName": "basewalkway",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                8.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                40.0,
+                10.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Floor.ply",
+            "friendlyName": "floorPathway",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                8.0
+            ],
+            "offset": [
+                5.0,
+                0.0,
+                5.0
+            ]
+        },
+        "transform": {
+            "position": [
+                40.0,
+                14.899999618530273,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Stairs_01.ply",
+            "friendlyName": "stairs",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                45.0,
+                10.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Stairs_01.ply",
+            "friendlyName": "stairs2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                50.0,
+                5.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Block_01.ply",
+            "friendlyName": "basestairs",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                2.0,
+                2.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                40.0,
+                0.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Block_01.ply",
+            "friendlyName": "basestairs2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                50.0,
+                0.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Floor.ply",
+            "friendlyName": "floorPathway2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                55.0,
+                4.949999809265137,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Block_01.ply",
+            "friendlyName": "basePathway2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                55.0,
+                0.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Stairs_01.ply",
+            "friendlyName": "stairs3",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                50.0,
+                0.0,
+                10.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Construction_Rail_corner.ply",
+            "friendlyName": "railcorner",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                5.0,
+                5.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                55.0,
+                5.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_ControlRoom_Door.ply",
+            "friendlyName": "doorleft",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                36.5,
+                15.0,
+                39.75
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_ControlRoom_Doorway.ply",
+            "friendlyName": "doorwayleft",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                40.0,
+                15.0,
+                40.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Desk_Lab_01.ply",
+            "friendlyName": "desklab1",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                45.0,
+                0.0,
+                35.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Desk_Lab_02.ply",
+            "friendlyName": "desklab2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                47.0,
+                0.0,
+                30.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                45.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Desk_03.ply",
+            "friendlyName": "desk1",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                30.0,
+                0.0,
+                35.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -45.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Beaker_01.ply",
+            "friendlyName": "beaker",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                31.0,
+                1.5,
+                36.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Beaker_01.ply",
+            "friendlyName": "beaker2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                32.0,
+                1.5499999523162842,
+                35.900001525878906
+            ],
+            "scale": 0.75,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Beaker_01.ply",
+            "friendlyName": "beaker3",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                31.600000381469727,
+                1.5499999523162842,
+                36.400001525878906
+            ],
+            "scale": 0.5,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Beaker_01.ply",
+            "friendlyName": "beaker4",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                29.200000762939453,
+                1.5499999523162842,
+                34.20000076293945
+            ],
+            "scale": 1.25,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Desk_04.ply",
+            "friendlyName": "desk2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                25.0,
+                0.0,
+                5.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                45.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Trolley_01.ply",
+            "friendlyName": "trolley",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                20.0,
+                0.0,
+                33.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                33.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Trolley_01.ply",
+            "friendlyName": "desk2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                20.0,
+                0.0,
+                33.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                33.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_TestTube_02.ply",
+            "friendlyName": "tube1",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                24.100000381469727,
+                1.600000023841858,
+                5.800000190734863
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                33.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_TestTube_02.ply",
+            "friendlyName": "tube2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                26.0,
+                1.600000023841858,
+                4.5
+            ],
+            "scale": 0.5,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_SwivelChair_01.ply",
+            "friendlyName": "chair1",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                26.84000015258789,
+                0.0,
+                6.710000038146973
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -70.0000228881836,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_SwivelChair_02.ply",
+            "friendlyName": "chair2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                48.58000183105469,
+                0.0,
+                33.130001068115234
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -70.0000228881836,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Tape_02.ply",
+            "friendlyName": "tape",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                2.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                2.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                51.0,
+                0.0,
+                10.5
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Sign_01.ply",
+            "friendlyName": "sign",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                22.0,
+                0.0,
+                31.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -60.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Phone_01.ply",
+            "friendlyName": "phone",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                25.34000015258789,
+                1.4900000095367432,
+                4.610000133514404
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Server_01.ply",
+            "friendlyName": "server1",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                2.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                2.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                36.369998931884766,
+                0.0,
+                38.959999084472656
+            ],
+            "scale": 1.0,
+            "orientation": [
+                180.0,
+                -1.0,
+                180.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Lockers_05.ply",
+            "friendlyName": "lockers",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                2.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                2.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                47.310001373291016,
+                0.0,
+                39.5099983215332
+            ],
+            "scale": 1.0,
+            "orientation": [
+                180.0,
+                -1.0,
+                180.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Plants_02.ply",
+            "friendlyName": "plants",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                2.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                2.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                55.45000076293945,
+                0.0,
+                39.72999954223633
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Shuttle_01.ply",
+            "friendlyName": "shuttle",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                20.0,
+                0.0,
+                16.579999923706055
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -89.98021697998047,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Satellite.ply",
+            "friendlyName": "satellite",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                11.970000267028809,
+                -0.0,
+                30.989999771118164
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                45.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Prop_Rocket_01.ply",
+            "friendlyName": "rocket",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                11.09000015258789,
+                -0.0,
+                7.010000228881836
+            ],
+            "scale": 1.0,
+            "orientation": [
+                180.0,
+                -1.0,
+                180.0
+            ]
+        }
+    },
+    {
+        "model": {
+            "name": "SM_Env_Ceiling_Light_red_green.ply",
+            "friendlyName": "lightRedGreen",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "tiling": {
+            "axis": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "transform": {
+            "position": [
+                35.652000427246094,
+                10.0,
+                19.75
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                141.95004272460938,
+                136.530029296875,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                141.95004272460938,
+                136.530029296875
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -501.0000305175781,
+                91.11000061035156,
+                -85.87999725341797,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars2",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -500.0000305175781,
+                91.11000061035156,
+                -85.87999725341797
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                205.54019165039063,
+                15.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars3",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                205.54019165039063,
+                15.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                183.40013122558594,
+                154.81005859375,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars4",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                183.40013122558594,
+                154.81005859375
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                191.19015502929688,
+                -63.970001220703125,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars5",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                191.19015502929688,
+                -63.970001220703125
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                58.7400016784668,
+                -45.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars6",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                58.7400016784668,
+                -45.0
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                94.30000305175781,
+                -96.36000061035156,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars7",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                94.30000305175781,
+                -96.36000061035156
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                193.44017028808594,
+                98.59001159667969,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars8",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                193.44017028808594,
+                98.59001159667969
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                57.939998626708984,
+                158.2100830078125,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                57.939998626708984,
+                158.2100830078125
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                114.8499984741211,
+                38.970001220703125,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                114.8499984741211,
+                38.970001220703125
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                120.27001190185547,
+                -7.099999904632568,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                120.27001190185547,
+                -7.099999904632568
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                209.70021057128906,
+                -4.389999866485596,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                209.70021057128906,
+                -4.389999866485596
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                147.37005615234375,
+                66.06999969482422,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                147.37005615234375,
+                66.06999969482422
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                171.76011657714844,
+                -17.940000534057617,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                171.76011657714844,
+                -17.940000534057617
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                41.68000030517578,
+                -129.0500030517578,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                41.68000030517578,
+                -129.0500030517578
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                74.19999694824219,
+                -101.94999694824219,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                74.19999694824219,
+                -101.94999694824219
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                144.66004943847656,
+                -91.11000061035156,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                144.66004943847656,
+                -91.11000061035156
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                52.52000045776367,
+                41.68000030517578,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                52.52000045776367,
+                41.68000030517578
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                74.19999694824219,
+                76.91000366210938,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                74.19999694824219,
+                76.91000366210938
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                98.58999633789063,
+                139.2400360107422,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars9",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                98.58999633789063,
+                139.2400360107422
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                -700.0,
+                106.72000122070313,
+                98.58999633789063,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                -0.0,
+                0.0010000000474974513,
+                0.10000000149011612,
+                1.0
+            ],
+            "direction": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "model": {
+            "name": "sphere.ply",
+            "friendlyName": "stars10",
+            "isWireframe": false,
+            "doNotLight": false
+        },
+        "transform": {
+            "position": [
+                -699.0,
+                106.72000122070313,
+                98.58999633789063
+            ],
+            "scale": 1.0,
+            "orientation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                10.0,
+                24.0,
+                10.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.0020000000949949026,
+                0.006000000052154064,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                25.0,
+                26.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "light": {
+            "position": [
+                10.0,
+                24.0,
+                30.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                20.0,
+                40.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "animation": {
+            "type": 2,
+            "isActive": false,
+            "triggerName": "",
+            "triggerValue": 0.0,
+            "direction": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "duration": 10.0,
+            "ups": 0.0,
+            "amplitude": 0.375,
+            "offset": 0.550000011920929,
+            "frequency": 0.699999988079071
+        },
+        "light": {
+            "position": [
+                35.821998596191406,
+                9.25,
+                20.549999237060547,
+                0.0
+            ],
+            "diffuse": [
+                0.800000011920929,
+                0.10000000149011612,
+                0.10000000149011612,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.25,
+                0.5,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "player": {
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "animation": {
+            "type": 2,
+            "isActive": false,
+            "triggerName": "",
+            "triggerValue": 0.0,
+            "direction": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "duration": 10.0,
+            "ups": 0.0,
+            "amplitude": 0.375,
+            "offset": 0.550000011920929,
+            "frequency": 0.699999988079071
+        },
+        "light": {
+            "position": [
+                36.652000427246094,
+                9.210000038146973,
+                18.8700008392334,
+                0.0
+            ],
+            "diffuse": [
+                0.10000000149011612,
+                0.800000011920929,
+                0.10000000149011612,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.25,
+                0.5,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        },
+        "player": {
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "light": {
+            "position": [
+                30.0,
+                24.0,
+                10.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                20.0,
+                40.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "light": {
+            "position": [
+                30.0,
+                24.0,
+                30.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                20.0,
+                40.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "light": {
+            "position": [
+                50.0,
+                24.0,
+                10.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                20.0,
+                40.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "light": {
+            "position": [
+                50.0,
+                24.0,
+                30.0,
+                0.0
+            ],
+            "diffuse": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                1.0,
+                20.0,
+                40.0,
+                1.0
+            ],
+            "status": true
+        }
+    },
+    {
+        "light": {
+            "position": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "diffuse": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "specular": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "atten": [
+                0.0,
+                0.019999999552965164,
+                0.006500000134110451,
+                1.0
+            ],
+            "direction": [
+                0.0,
+                -1.0,
+                0.0,
+                1.0
+            ],
+            "params": [
+                2.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "status": true
+        }
+    }
+]

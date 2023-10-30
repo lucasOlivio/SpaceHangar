@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EnginePhysics">
+      <UniqueIdentifier>{ba9e5fca-ec17-4588-93a3-f659807f42a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineRenderer">
+      <UniqueIdentifier>{7c5cd443-9fc6-42ae-a68a-dd09753fc710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineUtilities">
+      <UniqueIdentifier>{165c4593-e346-4941-b96c-82bc566249e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineEditor">
+      <UniqueIdentifier>{6bde76b4-1e0e-4823-911f-b8525b3f49b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EngineRenderer\Shaders">
+      <UniqueIdentifier>{628db35e-e073-41ef-88a8-474df4cffff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineUtilities\Components">
+      <UniqueIdentifier>{d9743e3b-5b2c-49ee-8817-ef6628889d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineUtilities\Events">
+      <UniqueIdentifier>{95c7382c-beca-4fda-93f9-5c3204dccc86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineUtilities\Scenes">
+      <UniqueIdentifier>{ab818d1e-aa31-4a6e-a474-7216af07630a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Collision.cpp">
+      <Filter>EnginePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnginePhysics\Physics.cpp">
+      <Filter>EnginePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Force.cpp">
+      <Filter>EnginePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\CameraSystem.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\LightSystem.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\ModelSystem.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\Renderer.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\VAOManager.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\WindowSystem.cpp">
+      <Filter>EngineRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineRenderer\openglerrors.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ParserJson.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ConfigReadWriteJSON.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ConfigReadWriteFactory.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\utils.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\utilsMat.cpp">
+      <Filter>EngineUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EngineEditor\Editor.cpp">
+      <Filter>EngineEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Shader.cpp">
+      <Filter>EngineRenderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ShaderManager.cpp">
+      <Filter>EngineRenderer\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Component.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\ComponentBuilder.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Transform.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Camera.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Light.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Model.cpp">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\Event.cpp">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\KeyWrapper.cpp">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\events\KeyEvent.cpp">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\SceneView.cpp">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\SceneParserJSON.cpp">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\Scene.cpp">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnginePhysics\CollisionEvent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Animation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Tiling.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\Player.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\EngineRenderer\CameraSystem.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\drawInfo.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\LightSystem.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\ModelSystem.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\Renderer.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\VAOManager.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\WindowSystem.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\ConfigReadWriteFactory.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\ConfigReadWriteJSON.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\constants.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\iConfigReadWrite.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\opengl.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\openglerrors.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\ParserJSON.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\types.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\utils.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\utilsMat.h">
+      <Filter>EngineUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Force.h">
+      <Filter>EnginePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnginePhysics\Physics.h">
+      <Filter>EnginePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnginePhysics\PhysicsProperties.hpp">
+      <Filter>EnginePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Collision.h">
+      <Filter>EnginePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineEditor\Editor.h">
+      <Filter>EngineEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\ShaderManager.h">
+      <Filter>EngineRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EngineRenderer\iShaderInfo.h">
+      <Filter>EngineRenderer\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Component.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\ComponentBuilder.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\iComponent.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Transform.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Camera.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Light.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Model.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\Event.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\iEvent.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\iListener.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\KeyWrapper.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\KeyEvent.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\SceneView.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\SceneParserJSON.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\Scene.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\iSceneDirector.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\iScene.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\events\CollisionEvent.h">
+      <Filter>EngineUtilities\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Animation.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene\iGameplayDirector.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Projectile.h">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Tiling.h">
+      <Filter>EngineUtilities\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\components\Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\scene\SceneView.tpp">
+      <Filter>EngineUtilities\Scenes</Filter>
+    </None>
+  </ItemGroup>
+</Project>
