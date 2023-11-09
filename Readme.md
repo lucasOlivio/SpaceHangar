@@ -64,4 +64,4 @@ Exam for "Graphics" class. A space hangar scenario.
 
 ### Screenshots
 
-![Scene print](docs/sceneprint.png)
+![Scene print](docs/scenescreenshot.png)

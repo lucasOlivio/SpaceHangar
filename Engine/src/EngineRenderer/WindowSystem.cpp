@@ -81,8 +81,8 @@ void WindowSystem::UpdateUL(int shaderID)
     // Update matrix projection in shader
     glm::mat4 matProjection = glm::perspective(0.6f,
                                                this->m_ratio,
-                                               1.0f,
-                                              1000.0f);
+        1.0f,
+        1000.0f);
     GLint matProjectionUL = this->m_pShaderInfo->GetUL(shaderID, "matProjection");
     glUniformMatrix4fv(matProjectionUL, 1, GL_FALSE, glm::value_ptr(matProjection));
 }

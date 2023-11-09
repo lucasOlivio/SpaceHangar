@@ -313,12 +313,14 @@ void Editor::KeyActions(sKeyInfo keyInfo)
 		{
 			this->m_selectedEntity = this->m_lastSelectedEntity;
 			this->m_selectedParameter = 0;
+			this->m_selectedComponent = 0;
 		}
 		else
 		{
 			this->m_lastSelectedEntity = this->m_selectedEntity;
 			this->m_selectedEntity = 0;
 			this->m_selectedParameter = 0;
+			this->m_selectedComponent = 0;
 		}
 		return;
 	}
@@ -487,7 +489,7 @@ void Editor::ModifySelectedParameter(int axis, int orientation)
 		}
 		else if (paramInfo.parameterType == "float")
 		{
-			this->m_ModifySelected(paramInfo.parameterIntValue, orientation);
+			this->m_ModifySelected(paramInfo.parameterFloatValue, orientation);
 		}
 		else
 		{
